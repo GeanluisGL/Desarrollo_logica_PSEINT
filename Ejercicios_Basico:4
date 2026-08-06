@@ -1,0 +1,25 @@
+Proceso Promedio_Calificaciones
+	Definir c1, c2, c3,c4, c5, ca, ct Como REAL
+	CA = 6.0
+	
+	Escribir  "Dame la calificacion 1"
+	Leer c1
+	Escribir  "Dame la calificacion 2"
+	Leer c2
+	Escribir  "Dame la calificacion 3"
+	Leer c3
+	Escribir  "Dame la calificacion 4"
+	Leer c4
+	Escribir  "Dame la calificacion 5"
+	Leer c5
+	
+	ct = c1 + c2 + c3 + c4 + c5
+	Escribir "La calificion es mayor que el minimo. APROBADO"
+	Escribir "La calificacion total es: " ct
+	Escribir " " 
+	Si ct > ca Entonces
+		Escribir "La calificion es mayor que el minimo. APROBADO"
+	SiNo
+		Escribir "La calificion es menor que el minimo. REPROBADO"
+	Fin Si
+FinProceso
