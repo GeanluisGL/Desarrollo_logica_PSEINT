@@ -1,0 +1,20 @@
+Proceso Numero_Mayor_De_3
+    Definir num1, num2, num3 Como Entero
+	Escribir "Dame el 1er numero"
+	Leer num1 
+	Escribir "Dame el 2do numero"
+	Leer num2 
+	Escribir "Dame el 3er numero"
+	Leer num3
+	
+	Si num1 > num2 Y num1 > num2 Entonces
+		Escribir "El numero mayor es: " num1
+	Sino 
+		Si num2 > num3 Entonces
+			Escribir "El numero mayor es: " num2
+		SiNo
+			Escribir "El numero mayor es: " num3
+		FinSi
+	FinSi
+    
+FinProceso
