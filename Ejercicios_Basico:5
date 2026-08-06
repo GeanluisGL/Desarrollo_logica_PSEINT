@@ -1,0 +1,19 @@
+Proceso Tabla_Multiplicacion
+	Definir num Como Real
+	Definir count Como Entero
+	count = 1
+	Escribir "Dame un numero y lo multiplicare hasta 10"
+	Escribir " "
+	Leer num
+	
+	Escribir " "
+	Escribir "Tabla de multiplicar de " num
+	
+	
+	Mientras count < 10 Hacer
+		Escribir num " x " count " = " num * count
+		count = count + 1
+	Fin Mientras
+	Escribir " "
+	Escribir " Fin"
+FinProceso
