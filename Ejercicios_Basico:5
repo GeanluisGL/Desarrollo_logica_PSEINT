@@ -5,9 +5,8 @@ Proceso Tabla_Multiplicacion
 	Escribir "Dame un numero y lo multiplicare hasta 10"
 	Escribir " "
 	Leer num
-	
-	Escribir " "
 
+	Escribir " "
 	Escribir "Tabla de multiplicar de " num
 	
 	
